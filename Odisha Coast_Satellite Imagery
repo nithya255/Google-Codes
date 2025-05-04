@@ -118,12 +118,4 @@ for (var i = 0; i < imageCount; i++) {
     fileFormat: 'GeoTIFF'
   });
   
-  // Export D Index
-  Export.image.toDrive({
-    image: image.select('D'),
-    description: 'D_Index_Image_Export_' + acquisitionDate,
-    scale: 30,
-    maxPixels: 1e13,
-    fileFormat: 'GeoTIFF'
-  });
-}
+  
